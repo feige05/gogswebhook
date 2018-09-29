@@ -1,7 +1,8 @@
 ## 交叉编译
-* linux 64位
+* linux 
+具体看 Makefile
 ``` bash
-gox -osarch="linux/amd64" -output="./tmp/webhook"
+make linux
 
 ```
 ## 开发测试
