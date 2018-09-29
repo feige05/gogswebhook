@@ -6,6 +6,13 @@ gox -osarch="linux/amd64" -output="./tmp/webhook"
 ```
 ## 开发测试
 ``` bash
-go run main.go -config-file=./config.yml -static-dir=./static/
+go run ./api/main.go -config-file=./config.simple.yml -static-dir=./static/
 
 ```
+## gogs 添加 Web 钩子
+
+推送地址: http://ip:9090/hook/jobname
+
+数据格式: application/json
+
+密钥文本: 与config.simple.yml 内对应

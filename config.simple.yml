@@ -1,0 +1,9 @@
+JavaPath: "/pathToJava/java"
+JenkinsCliPath: "/pathToJenkinsClijar/jenkins-cli.jar"
+JenkinsURL: "http://127.0.0.1:8080/"
+JenkinsAuth: "uasename:password"
+Port: ":9090"
+Store:
+   -
+    name: "jobname" 
+    secret: ""
